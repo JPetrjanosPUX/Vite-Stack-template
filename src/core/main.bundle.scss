@@ -1,0 +1,8 @@
+// core
+@import "./base/base";
+@import "./typography/typography";
+@import "./layout/layout";
+
+// link your files, which you want in main
+// eg. button
+@import "./../modules/button/buttons.bundle.scss";

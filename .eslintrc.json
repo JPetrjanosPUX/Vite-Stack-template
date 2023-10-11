@@ -1,0 +1,39 @@
+{
+	"parser": "@typescript-eslint/parser",
+	"extends": [
+		"plugin:@typescript-eslint/recommended",
+		"plugin:prettier/recommended"
+	],
+	"plugins": [
+		"@typescript-eslint",
+		"prettier",
+		"simple-import-sort"
+	],
+	"parserOptions": {
+		"ecmaVersion": 2022,
+		"sourceType": "module"
+	},
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"rules": {
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error",
+		"quotes": "off",
+		"no-use-before-define": "off",
+		"@typescript-eslint/no-use-before-define": "off",
+		"@typescript-eslint/quotes": [
+			2,
+			"backtick",
+			{
+				"avoidEscape": true
+			}
+		],
+		"semi": [
+			"error",
+			"never"
+		],
+		"@typescript-eslint/no-explicit-any": "error"
+	}
+}

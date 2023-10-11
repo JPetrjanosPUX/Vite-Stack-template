@@ -1,0 +1,30 @@
+# editorconfig.org
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+
+[*.{html,svg,css,scss,js,jsx,ts,tsx}]
+indent_size = 4
+trim_trailing_whitespace = true
+max_line_length = 80
+
+[package-lock.json]
+indent_style = tab
+indent_size = 2
+
+[.eslintrc.json]
+indent_style = tab
+indent_size = 2
+
+[.stylelintrc.json]
+indent_style = tab
+indent_size = 2
+
+[.prettierrc.json]
+indent_style = tab
+indent_size = 2
+
+[*.{md,json,jsonc}]
+max_line_length = off
